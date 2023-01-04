@@ -1,3 +1,7 @@
+[![lint and tests](https://github.com/vadim-gusak/tbot_random_book/actions/workflows/main.yml/badge.svg)](https://github.com/vadim-gusak/tbot_random_book/actions/workflows/main.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5eb3dcf63f3aa3761342/maintainability)](https://codeclimate.com/github/vadim-gusak/tbot_random_book/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5eb3dcf63f3aa3761342/test_coverage)](https://codeclimate.com/github/vadim-gusak/tbot_random_book/test_coverage)
+
 # Случайная книга
 
 Простой телеграм бот, который присылает случайную книгу по запросу.
