@@ -44,10 +44,10 @@ def test_book_errors():
         response_body=''
     )
 
-    book = Book(TEST_URL)
+    book_1 = Book(TEST_URL)
 
-    assert book.description == 'Упс, что-то пошло не так. Попробуйте ещё раз.'
-    assert book.image_link == ''
+    assert book_1.description == 'Упс, что-то пошло не так. Попробуйте ещё раз.'
+    assert book_1.image_link == ''
 
     pook.get(
         TEST_URL,
@@ -55,5 +55,7 @@ def test_book_errors():
         response_body=''
     )
 
-    assert book.description == 'Упс, что-то пошло не так. Попробуйте ещё раз.'
-    assert book.image_link == ''
+    book_2 = Book(TEST_URL)
+
+    assert book_2.description == 'Упс, что-то пошло не так. Попробуйте ещё раз.'
+    assert book_2.image_link == ''
