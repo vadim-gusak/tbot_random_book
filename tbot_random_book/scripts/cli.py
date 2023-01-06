@@ -5,6 +5,7 @@ from os import getenv
 
 
 def main():
+    print('Start...')
     load_dotenv(find_dotenv())
     token = getenv('TOKEN')
     url = getenv('URL')
