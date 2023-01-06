@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  tbot:
+    container_name: tbot_container
+    build: .
+    restart: always
