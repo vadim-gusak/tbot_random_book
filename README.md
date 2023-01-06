@@ -44,3 +44,6 @@ make bot
 ```commandline
 poetry run bot
 ```
+### Docker
+Подготовлен Dockerfile для запуска бота в контейнере.
+Достаточно собрать образ и запустить его.
