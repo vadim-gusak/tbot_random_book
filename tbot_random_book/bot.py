@@ -31,7 +31,8 @@ def start_bot(token: str, url: str):
     def echo_all(message):
         book = Book(url)
 
-        log_mess = f'chat_id = {message.chat.id}, book = \n{book.description}\n'
+        log_mess = f'chat_id = {message.chat.id}, ' \
+                   f'book = \n{book.description}\n'
         logging.info(log_mess)
 
         bot.send_photo(
