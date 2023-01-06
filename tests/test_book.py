@@ -33,7 +33,7 @@ def test_book():
     book = Book(TEST_URL)
 
     assert book.image_link == "http://test.com/img"
-    assert book.description == 'My_title\nWow_author\nTest description'
+    assert book.description == 'My_title\n\nWow_author\n\nTest description'
 
 
 @pook.on

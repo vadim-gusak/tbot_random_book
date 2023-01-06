@@ -38,7 +38,7 @@ class Book(object):
         if self.book is None:
             return ERROR
 
-        result = '\n'.join(
+        result = '\n\n'.join(
             [
                 self.book.get('title', ''),
                 self.book.get('author', ''),
