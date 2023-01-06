@@ -8,3 +8,6 @@ test:
 	poetry run pytest
 test-cov:
 	poetry run pytest --cov=tbot_random_book --cov-report xml
+export:
+	poetry lock | poetry export -f requirements.txt --output requirements.txt
+
